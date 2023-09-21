@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         smoke: "#014E56",
+        graffiti: "#2C6269",
       },
     },
   },
