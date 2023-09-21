@@ -1,7 +1,11 @@
+import { Routing } from "./layout";
+
 function App() {
   return (
     <>
-      <div className="w-screen h-screen bg-red-500"></div>
+      <div>
+        <Routing />
+      </div>
     </>
   );
 }
