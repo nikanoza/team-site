@@ -9,7 +9,7 @@ const Header = () => {
     <header className="w-full flex justify-between items-center pt-12 px-6">
       <Logo />
       <Hamburger onClick={() => setShowMenu(true)} />
-      {showMenu && <MobileMenu close={() => {}} />}
+      {showMenu && <MobileMenu close={() => setShowMenu(false)} />}
     </header>
   );
 };
