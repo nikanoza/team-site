@@ -1,7 +1,11 @@
+import { Routing } from "./layout";
+
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <Routing />
+      </div>
     </>
   );
 }
