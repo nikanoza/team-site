@@ -6,6 +6,7 @@ export default {
       colors: {
         smoke: "#014E56",
         graffiti: "#2C6269",
+        "dark-green": "#002529",
       },
     },
   },
