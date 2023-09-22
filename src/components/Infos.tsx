@@ -25,7 +25,7 @@ const infos = [
 
 const Infos = () => {
   return (
-    <div className="w-full px-6 bg-infos-bg pb-16">
+    <div className="w-full px-6 bg-infos-bg pb-16 overflow-x-hidden">
       <div className="w-full flex justify-between">
         <div>
           <div className="w-12 h-1 bg-red mt-16"></div>
