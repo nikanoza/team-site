@@ -7,3 +7,4 @@ export { default as Twitter } from "./Twitter";
 export { default as Chart } from "./Chart";
 export { default as Person } from "./Person";
 export { default as Cog } from "./Cog";
+export { default as Quotes } from "./Quotes";

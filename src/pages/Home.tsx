@@ -1,4 +1,5 @@
 import PatternBanner from "../assets/bg-pattern-home-2.svg";
+import { Cards, ContactCard } from "../components";
 import Infos from "../components/Infos";
 
 const Home = () => {
@@ -17,6 +18,8 @@ const Home = () => {
       </div>
       <img src={PatternBanner} alt="" className="mt-24" />
       <Infos />
+      <Cards />
+      <ContactCard />
     </div>
   );
 };
