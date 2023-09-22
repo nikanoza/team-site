@@ -4,3 +4,6 @@ export { default as Close } from "./Close";
 export { default as Facebook } from "./Facebook";
 export { default as Pinterest } from "./Pinterest";
 export { default as Twitter } from "./Twitter";
+export { default as Chart } from "./Chart";
+export { default as Person } from "./Person";
+export { default as Cog } from "./Cog";
