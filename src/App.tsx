@@ -1,4 +1,4 @@
-import { Header, Routing } from "./layout";
+import { Footer, Header, Routing } from "./layout";
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <div className="w-screen min-h-screen bg-smoke">
         <Header />
         <Routing />
+        <Footer />
       </div>
     </>
   );
